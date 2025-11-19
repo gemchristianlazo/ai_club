@@ -358,12 +358,13 @@ def main():
         else:
             st.info("Don't have a file? Download this template.")
             example_data = pd.DataFrame([
-                {"Name": "Student A", "Accuracy": "Excellent", "Writing": "Good", "Timeliness": "Average"},
-                {"Name": "Student B", "Accuracy": "Poor", "Writing": "Very Bad", "Timeliness": "Very Bad"},
-                {"Name": "Student C", "Accuracy": "Good", "Writing": "Average", "Timeliness": "Good"}
+                {"Name": "Gem", "Accuracy": "Excellent", "Writing": "Good", "Timeliness": "Average"},
+                {"Name": "Christian", "Accuracy": "Poor", "Writing": "Very Bad", "Timeliness": "Very Bad"},
+                {"Name": "Lazo", "Accuracy": "Good", "Writing": "Average", "Timeliness": "Good"}
             ])
             st.dataframe(example_data)
             st.download_button("Download Template CSV", example_data.to_csv(index=False).encode('utf-8'), "template.csv")
 
 if __name__ == "__main__":
+
     main()
