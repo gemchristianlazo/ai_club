@@ -66,10 +66,9 @@ fuzzy-logic-grader/
 └── README.md             # Documentation
 
 
+
 👨‍💻 Credits
 Developer: Gem Christian O. Lazo
-
 Professor: Jan Eilbert Lee
-
-
 Organization: Artificial Intelligence Club
+
