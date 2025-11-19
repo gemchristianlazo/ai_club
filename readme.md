@@ -7,7 +7,7 @@
 An intelligent grading application built for the **AI Club** that utilizes **Fuzzy Logic** to evaluate student performance. Unlike traditional binary grading, this system processes linguistic variables (e.g., "Excellent", "Average", "Poor") to compute precise numerical grades based on complex logical rule sets.
 
 ## 🚀 Live Demo
-*[Insert your Streamlit Cloud Link Here after deploying]*
+*https://aiclub-oyshtzn3hkbmvzbqm4fs8u.streamlit.app/*
 
 ## ⚡ Key Features
 
@@ -70,5 +70,6 @@ fuzzy-logic-grader/
 Developer: Gem Christian O. Lazo
 
 Professor: Jan Eilbert Lee
+
 
 Organization: Artificial Intelligence Club
