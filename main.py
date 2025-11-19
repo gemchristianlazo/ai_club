@@ -359,8 +359,8 @@ def main():
             st.info("Don't have a file? Download this template.")
             example_data = pd.DataFrame([
                 {"Name": "Gem", "Accuracy": "Excellent", "Writing": "Good", "Timeliness": "Average"},
-                {"Name": "Christian", "Accuracy": "Poor", "Writing": "Very Bad", "Timeliness": "Very Bad"},
-                {"Name": "Lazo", "Accuracy": "Good", "Writing": "Average", "Timeliness": "Good"}
+                {"Name": "Arabella", "Accuracy": "Poor", "Writing": "Very Bad", "Timeliness": "Very Bad"},
+                {"Name": "Crystal", "Accuracy": "Good", "Writing": "Average", "Timeliness": "Good"}
             ])
             st.dataframe(example_data)
             st.download_button("Download Template CSV", example_data.to_csv(index=False).encode('utf-8'), "template.csv")
@@ -368,3 +368,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
